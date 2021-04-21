@@ -1,0 +1,11 @@
+.custom-bg-1 {
+    background-color: rgb(248, 210, 152);
+}
+
+.custom-bg-2 {
+    background-color: rgb(225, 184, 245);
+}
+
+div .float-right {
+    cursor: pointer;
+}

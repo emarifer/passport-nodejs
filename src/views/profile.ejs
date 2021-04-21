@@ -1,0 +1,15 @@
+<%- layout('layouts/main') %> 
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <h1 class="text-center text-light">Profile</h1>
+        <div class="card mt-4 text-center rounded-lg">
+            <div class="card-header custom-bg-1">
+                <h4 class="font-italic text-capitalize">My Profile</h4>
+            </div>
+            <div class="card-body custom-bg-2">
+                <h5><%= user.email %> </h5>
+                <p><%= user._id %> </p>
+            </div>
+        </div>
+    </div>
+</div>
